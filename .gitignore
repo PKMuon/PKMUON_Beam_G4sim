@@ -1,0 +1,50 @@
+# 忽略单个文件
+#filename.txt
+
+# 忽略整个文件夹
+#folder/
+
+# 忽略特定类型的文件
+#*.txt
+
+# 忽略以特定字符串开头的文件
+#temp_*
+
+# 忽略以特定字符串结尾的文件
+#*_temp
+
+# 忽略特定路径下的文件或文件夹
+#path/to/file.txt
+#path/to/folder/
+
+root_file/
+backup/
+figure/
+root/
+out/
+log/
+mac/
+MuonHitDM/
+old/
+test/
+CMakeFiles/
+
+SingleEngMu_*.mac
+CryMu_*.mac
+DM_*.mac
+
+*.root
+*.dat
+*log
+log*
+job_*
+datacard_*.txt
+*.eps
+*.pdf
+*.png
+*.jpeg
+*.jpg
+
+CMakeCache.txt
+cmake_install.cmake
+Makefile

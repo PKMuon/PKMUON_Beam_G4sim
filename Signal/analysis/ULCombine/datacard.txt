@@ -1,0 +1,17 @@
+imax 1
+jmax 1
+kmax *
+---------------
+shapes h_bkg * ROOTFILE hBKG
+shapes h_sig * ROOTFILE hSIG
+shapes data_obs * ROOTFILE hBKG
+---------------
+bin bin1
+observation -1
+------------------------------
+bin         bin1        bin1
+process     h_sig       h_bkg
+process     0           1
+rate        -1          -1
+------------------------------
+bin1 autoMCStats 10 0 1
