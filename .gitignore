@@ -37,7 +37,7 @@ DM_*.mac
 *.dat
 *log
 log*
-job_*
+#job_*
 datacard_*.txt
 *.eps
 *.pdf

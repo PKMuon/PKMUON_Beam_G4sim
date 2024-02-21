@@ -1,0 +1,16 @@
+/control/verbose 2
+/run/verbose 2
+/run/initialize
+/gps/particle mu-
+/gps/energy ENERGY
+
+/gps/pos/type Beam
+/gps/pos/centre 0 0 -0.5  m
+#/gps/pos/sigma_r 5 mm
+/gps/pos/sigma_x 5 mm
+/gps/pos/sigma_y 5 mm
+/gps/direction 0.0  0.0  1.
+
+/rlt/SetFileName OUTROOTNAME.root
+/run/printProgress 100000
+/run/beamOn JOBNUM
